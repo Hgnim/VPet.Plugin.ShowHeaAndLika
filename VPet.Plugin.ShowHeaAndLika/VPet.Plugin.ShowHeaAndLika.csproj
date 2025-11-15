@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<OutputType>Library</OutputType>
+		<UseWPF>true</UseWPF>
+		<ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+
+		<AssemblyVersion>1.0.0.1115</AssemblyVersion>
+		<FileVersion>1.0.0.1115</FileVersion>
+		<VersionPrefix>1.0.0.20251115</VersionPrefix>
+		<VersionSuffix></VersionSuffix>
+
+		<Authors>Hgnim</Authors>
+		<Company>$(Authors)</Company>
+		<Owners>$(Authors)</Owners>
+		<Product>ShowHeaAndLika</Product>
+		<Title>"显示健康与好感"桌宠插件</Title>
+		<AssemblyTitle>$(Title)</AssemblyTitle>
+		<Description>ShowHeaAndLika</Description>
+		<AssemblyName>VPet.Plugin.ShowHeaAndLika</AssemblyName>
+
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="VPet-Simulator.Core" Version="1.1.0.52" />
+		<PackageReference Include="VPet-Simulator.Windows.Interface" Version="1.1.0.52" />
+	</ItemGroup>
+
+</Project>
