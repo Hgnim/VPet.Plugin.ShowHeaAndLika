@@ -8,3 +8,5 @@
 - 格式与功能和官方的状态条一致
   - 根据状态条的多少改变颜色（例如：低显示为红色，中等显示为黄色，高显示为绿色）
   - 左侧显示变化速度（单位：tick）
+
+创意工坊：https://steamcommunity.com/sharedfiles/filedetails/?id=3605982778
