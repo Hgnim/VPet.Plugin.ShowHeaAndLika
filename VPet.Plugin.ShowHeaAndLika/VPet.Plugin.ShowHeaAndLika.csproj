@@ -7,9 +7,9 @@
 		<ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
 		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies><!--复制所有NuGet依赖到输出目录-->
 
-		<AssemblyVersion>1.0.0.1115</AssemblyVersion>
-		<FileVersion>1.0.0.1115</FileVersion>
-		<VersionPrefix>1.0.0.20251115</VersionPrefix>
+		<AssemblyVersion>1.1.0.1123</AssemblyVersion>
+		<FileVersion>1.1.0.1123</FileVersion>
+		<VersionPrefix>1.1.0.20251123</VersionPrefix>
 		<VersionSuffix></VersionSuffix>
 
 		<Authors>Hgnim</Authors>
