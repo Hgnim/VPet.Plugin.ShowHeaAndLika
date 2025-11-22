@@ -5,6 +5,7 @@
 		<OutputType>Library</OutputType>
 		<UseWPF>true</UseWPF>
 		<ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies><!--复制所有NuGet依赖到输出目录-->
 
 		<AssemblyVersion>1.0.0.1115</AssemblyVersion>
 		<FileVersion>1.0.0.1115</FileVersion>
@@ -23,8 +24,22 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="VPet-Simulator.Core" Version="1.1.0.52" />
-		<PackageReference Include="VPet-Simulator.Windows.Interface" Version="1.1.0.52" />
+		<PackageReference Include="DeepCloner" Version="0.10.4" />
+		<PackageReference Include="LinePutScript" Version="1.11.9">
+			<ExcludeAssets>runtime</ExcludeAssets><!--不复制到输出目录-->
+		</PackageReference>
+		<PackageReference Include="LinePutScript.Localization.WPF" Version="1.0.7">
+			<ExcludeAssets>runtime</ExcludeAssets>
+		</PackageReference>
+		<PackageReference Include="Panuon.WPF.UI" Version="1.2.4.10" >
+			<ExcludeAssets>runtime</ExcludeAssets>
+		</PackageReference>
+		<PackageReference Include="VPet-Simulator.Core" Version="1.1.0.52">
+			<ExcludeAssets>runtime</ExcludeAssets>
+		</PackageReference>
+		<PackageReference Include="VPet-Simulator.Windows.Interface" Version="1.1.0.52">
+			<ExcludeAssets>runtime</ExcludeAssets>
+		</PackageReference>
 	</ItemGroup>
 
 </Project>
